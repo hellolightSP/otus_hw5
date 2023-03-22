@@ -2,7 +2,6 @@
 #ebanle firewalld
 systemctl enable firewalld --now
 #add firewall rules
-firewall-cmd --add-service="nfs3"
 firewall-cmd --add-service="nfs3" --permanent
 firewall-cmd --add-service="rpc-bind" --permanent
 firewall-cmd --add-service="mountd" --permanent
