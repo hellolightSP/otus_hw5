@@ -107,7 +107,7 @@ touch /mnt/upload/client_file
 
 **Примечание**
 
--Параметр
+- Параметр
 ```
 box.vm.provision "shell", reboot: true
 ```
