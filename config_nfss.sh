@@ -24,4 +24,3 @@ exportfs -s
 #check download
 touch /srv/share/upload/check_file
 /usr/bin/ls /srv/share/upload/
-
